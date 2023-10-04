@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Kufam', sans-serif;
+}
+nav{
+    height: 100vh;
+    width: 21.875em;
+    background-color: tomato;
+    padding-top: 1.563em;
+    padding-left: 1.25em;
+    display: grid;
+    font-family: 'Kufam', sans-serif;
+
+}
+.search-bar{
+    position: absolute;
+    background-color: #EEEEEE;
+
+
+    height: 1.875em;
+    width: 18.75em;
+    padding-left: 1em;
+    border-radius: 1.875em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Kufam', sans-serif;
+}
+.search-text{
+    background: none;
+    border: 0ch;
+    outline: 0;
+    font-family: 'Kufam', sans-serif;
+}
