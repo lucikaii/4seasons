@@ -164,5 +164,34 @@ main{
     /* background-color: aqua; */
 }
 
+@media (max-width: 450px){
 
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+}
+nav{
+    height: 18.75em;
+    width: 100%;
+}
+.search-bar{
+    height: 3.5em;
+    width: 40em;
+}
+.content{
+    height: 100%;
+    width: 100%;
+}
+.weather{
+    height: 100em;
+    width: 100%;
+    display: grid;
+}
+.weather_box{
+   height: 2.188em;
+   width: 80%;
+}
+
+}
 
