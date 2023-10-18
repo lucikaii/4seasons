@@ -179,6 +179,18 @@ nav{
     height: 3.5em;
     width: 40em;
 }
+.header{
+    height: 0;
+    width: 0;
+}
+.week{
+    height: 0;
+    width: 0;
+}
+.linha{
+    height: 0;
+    width: 0;
+}
 .content{
     height: 100%;
     width: 100%;
@@ -187,10 +199,12 @@ nav{
     height: 100em;
     width: 100%;
     display: grid;
+    align-items: center;
+    justify-content: center;
 }
 .weather_box{
    height: 2.188em;
-   width: 80%;
+   width: 80em;
 }
 
 }
