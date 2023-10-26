@@ -14,17 +14,20 @@ nav{
     height: 100vh;
     width: 21.875em;
     background-color: white;
-    padding-top: 1.563em;
-    padding-left: 1.25em;
-    display: grid;
+    justify-content: center;
     font-family: 'Kufam', sans-serif;
 
+}
+.above-side{
+    height: 3.5em;
+    width: 21.875em;
+    padding-top: 1.563em;
+    padding-left: 1.25em;
+    background-color: aqua;
 }
 .search-bar{
     position: absolute;
     background-color: #EEEEEE;
-
-
     height: 1.875em;
     width: 18.75em;
     padding-left: 1em;
@@ -39,6 +42,38 @@ nav{
     border: 0ch;
     outline: 0;
     font-family: 'Kufam', sans-serif;
+}
+.below-side{
+    height: 50.313em;
+    width: 21.875em;
+    display: grid;
+    justify-content: center;
+    padding-top: 2em;
+    background-color: green;
+}
+.current_weather{
+    height: 500px;
+    width: 300px;
+    display: grid;
+    justify-content: center;
+    background-color: pink;
+}
+.current-weather-icon{
+    height: 16em;
+    width: 16em;
+    background-color: tomato;
+}
+.current-weather-temperature{
+    height: 8.125em;
+    width: 16em;
+    background-color: palevioletred;
+}
+.current-weather-city{
+    height: 2em;
+    width: 16em;
+    display: grid;
+    justify-content: center;
+    background-color: rebeccapurple;
 }
 main{
     height: 100vh;
